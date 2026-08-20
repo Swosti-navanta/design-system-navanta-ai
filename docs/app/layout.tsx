@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { ThemeProvider } from 'next-themes'
 import { CommandPalette } from '@/app/components/command-palette'
 import { Sidebar } from '@/app/components/sidebar'
-import { ToastProvider, Toaster } from '@navanta-ai/design-system'
+import { ToastProvider, Toaster, FeedbackWidget } from '@navanta-ai/design-system'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -34,6 +34,7 @@ export default function RootLayout({
                 {children}
               </div>
               <Toaster position="bottom-right" />
+              <FeedbackWidget projectName="navanta-design-system-docs" />
             </div>
           </ToastProvider>
         </ThemeProvider>

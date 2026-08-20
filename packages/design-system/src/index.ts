@@ -86,3 +86,6 @@ export * from './components/ui/panel'
 // Contexts
 export { ToastProvider, useToast } from './context/ToastContext'
 export type { ToastItem, AddToastOptions, ToastPosition } from './context/ToastContext'
+
+// Feedback widget
+export { FeedbackWidget, type FeedbackWidgetProps } from './components/Feedback'

@@ -40,6 +40,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@navanta/feedback-widget": "^0.4.0",
     "@phosphor-icons/react": "^2.1.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.0.0",
